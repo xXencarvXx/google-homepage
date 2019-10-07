@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#apps {
+    width: 70%;
+    padding-left: .3em;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: .2em 1em 0 0;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+}
+
+.navigation li {
+    padding: 0 0 0 1em;
+    font-size: .9em;
+}
+
+.navigation li a:nth-child(-n+2) {
+    text-decoration: none;
+    color: #000;
+}
+
+.sign-in {
+    background-color: #4285f4;
+    color: #fff!important;
+    text-decoration: none;
+    padding: .5em .8em;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    padding: 10em 0 0;
+}
+
+
+input[type="text"] {
+    padding-left: 2em;
+    border: 1px solid #dadada;
+    width: 30em;
+    height: 3em;
+    border-radius: 3em;
+    margin: 2em 0 0 0;
+}
+
+.lucky-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.lucky {
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 54px;
+    text-align: center;
+    margin: 1em;
+}
+
+.footer-container {
+    display: grid;
+    
+}
